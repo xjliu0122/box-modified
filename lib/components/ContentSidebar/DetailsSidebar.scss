@@ -1,0 +1,18 @@
+@import '../variables';
+@import '~box-react-ui/lib/styles/common/links';
+
+.be .item-properties dd {
+    margin-left: 0;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.bcs-details-content {
+    margin: 0 10px 20px 20px;
+}
+
+.bcs-details-content:empty {
+    margin: 0;
+}

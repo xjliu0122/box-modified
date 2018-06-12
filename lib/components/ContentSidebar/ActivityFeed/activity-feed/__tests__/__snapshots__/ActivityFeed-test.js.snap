@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/ContentSidebar/ActivityFeed/activity-feed/ActivityFeed should correctly render activity state 1`] = `
+<div
+  className="bcs-activity-feed"
+  onKeyDown={[Function]}
+>
+  <div
+    className="bcs-activity-feed-items-container"
+  >
+    <ActiveState
+      currentUser={
+        Object {
+          "id": 10,
+          "name": "Kanye West",
+        }
+      }
+      items={
+        Array [
+          Object {
+            "created_at": "Thu Sep 26 33658 19:46:39 GMT-0600 (CST)",
+            "created_by": Object {
+              "id": 11,
+              "name": "Akon",
+            },
+            "id": "123",
+            "tagged_message": "test @[123:Jeezy] @[10:Kanye West]",
+            "type": "comment",
+          },
+          Object {
+            "created_at": "Thu Sep 25 33658 19:45:39 GMT-0600 (CST)",
+            "dueAt": 1234567891,
+            "id": "1234",
+            "modified_at": "Thu Sep 25 33658 19:46:39 GMT-0600 (CST)",
+            "modified_by": Object {
+              "id": 10,
+              "name": "Jay-Z",
+            },
+            "tagged_message": "test",
+            "task_assignment_collection": Array [],
+            "type": "task",
+          },
+          Object {
+            "created_at": "Thu Sep 20 33658 19:45:39 GMT-0600 (CST)",
+            "id": 123,
+            "modified_at": 1234567891,
+            "modified_by": Object {
+              "id": 11,
+              "name": "Akon",
+            },
+            "trashed_at": 1234567891,
+            "type": "file_version",
+          },
+        ]
+      }
+      onCommentDelete={[Function]}
+      onTaskAssignmentUpdate={[Function]}
+      onTaskDelete={[Function]}
+      onTaskEdit={[Function]}
+      onVersionInfo={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`components/ContentSidebar/ActivityFeed/activity-feed/ActivityFeed should correctly render empty state 1`] = `
+<div
+  className="bcs-activity-feed"
+  onKeyDown={[Function]}
+>
+  <div
+    className="bcs-activity-feed-items-container"
+  >
+    <EmptyState
+      isLoading={false}
+      showCommentMessage={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`components/ContentSidebar/ActivityFeed/activity-feed/ActivityFeed should correctly render empty state with loading indicator 1`] = `
+<div
+  className="bcs-activity-feed"
+  onKeyDown={[Function]}
+>
+  <div
+    className="bcs-activity-feed-items-container"
+  >
+    <EmptyState
+      isLoading={true}
+      showCommentMessage={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`components/ContentSidebar/ActivityFeed/activity-feed/ActivityFeed should not render approval comment form if comment permissions are not present 1`] = `
+<div
+  className="bcs-activity-feed"
+  onKeyDown={[Function]}
+>
+  <div
+    className="bcs-activity-feed-items-container"
+  >
+    <EmptyState
+      isLoading={false}
+      showCommentMessage={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`components/ContentSidebar/ActivityFeed/activity-feed/ActivityFeed should not render approval comment form if comment submit handler is not passed in 1`] = `
+<div
+  className="bcs-activity-feed"
+  onKeyDown={[Function]}
+>
+  <div
+    className="bcs-activity-feed-items-container"
+  >
+    <EmptyState
+      isLoading={false}
+      showCommentMessage={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`components/ContentSidebar/ActivityFeed/activity-feed/ActivityFeed should render approval comment form if comment submit handler is passed in and comment permissions 1`] = `
+<div
+  className="bcs-activity-feed"
+  onKeyDown={[Function]}
+>
+  <div
+    className="bcs-activity-feed-items-container"
+  >
+    <EmptyState
+      isLoading={false}
+      showCommentMessage={true}
+    />
+  </div>
+  <ApprovalCommentForm
+    className="bcs-activity-feed-comment-input"
+    createComment={[Function]}
+    createTask={[Function]}
+    getApproverContactsWithQuery={[MockFunction]}
+    getMentionContactsWithQuery={[MockFunction]}
+    isOpen={false}
+    onCancel={[Function]}
+    onFocus={[Function]}
+    onSubmit={[Function]}
+    user={
+      Object {
+        "id": 10,
+        "name": "Kanye West",
+      }
+    }
+  />
+</div>
+`;

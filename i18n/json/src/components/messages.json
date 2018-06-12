@@ -1,0 +1,792 @@
+[
+  {
+    "id": "be.today",
+    "description": "Shown instead of todays date.",
+    "defaultMessage": "today"
+  },
+  {
+    "id": "be.yesterday",
+    "description": "Shown instead of yesterdays date.",
+    "defaultMessage": "yesterday"
+  },
+  {
+    "id": "be.logo",
+    "description": "Placeholder for a logo.",
+    "defaultMessage": "Logo"
+  },
+  {
+    "id": "be.preview",
+    "description": "Label for preview action.",
+    "defaultMessage": "Preview"
+  },
+  {
+    "id": "be.open",
+    "description": "Label for open action.",
+    "defaultMessage": "Open"
+  },
+  {
+    "id": "be.close",
+    "description": "Label for close action.",
+    "defaultMessage": "Close"
+  },
+  {
+    "id": "be.copy",
+    "description": "Label for copy action.",
+    "defaultMessage": "Copy"
+  },
+  {
+    "id": "be.delete",
+    "description": "Label for delete action.",
+    "defaultMessage": "Delete"
+  },
+  {
+    "id": "be.rename",
+    "description": "Label for rename action.",
+    "defaultMessage": "Rename"
+  },
+  {
+    "id": "be.remove",
+    "description": "Label for remove action.",
+    "defaultMessage": "Remove"
+  },
+  {
+    "id": "be.retry",
+    "description": "Label for retry action.",
+    "defaultMessage": "Retry"
+  },
+  {
+    "id": "be.share",
+    "description": "Label for share action.",
+    "defaultMessage": "Share"
+  },
+  {
+    "id": "be.download",
+    "description": "Label for download action.",
+    "defaultMessage": "Download"
+  },
+  {
+    "id": "be.save",
+    "description": "Label for save action.",
+    "defaultMessage": "Save"
+  },
+  {
+    "id": "be.cancel",
+    "description": "Label for cancel action.",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "be.cancelUploads",
+    "description": "Label for cancel uploads action.",
+    "defaultMessage": "Cancel Uploads"
+  },
+  {
+    "id": "be.create",
+    "description": "Label for create action.",
+    "defaultMessage": "Create"
+  },
+  {
+    "id": "be.choose",
+    "description": "Label for choose action.",
+    "defaultMessage": "Choose"
+  },
+  {
+    "id": "be.upload",
+    "description": "Label for upload action.",
+    "defaultMessage": "Upload"
+  },
+  {
+    "id": "be.newFolder",
+    "description": "Label for create new folder action.",
+    "defaultMessage": "New Folder"
+  },
+  {
+    "id": "be.in",
+    "description": "Label for in action.",
+    "defaultMessage": "In"
+  },
+  {
+    "id": "be.print",
+    "description": "Label for print action",
+    "defaultMessage": "Print"
+  },
+  {
+    "id": "be.selected",
+    "description": "Default label for selected items list in the footer.",
+    "defaultMessage": "Selected"
+  },
+  {
+    "id": "be.max",
+    "description": "Indicator on the footer that max items have been selected.",
+    "defaultMessage": "max"
+  },
+  {
+    "id": "be.nameDate",
+    "description": "Text for modified or interacted date with user.",
+    "defaultMessage": "{date} by {name}"
+  },
+  {
+    "id": "be.itemModified",
+    "description": "Label for item modified date.",
+    "defaultMessage": "Modified"
+  },
+  {
+    "id": "be.modifiedDateBy",
+    "description": "Text for modified date with user with modified prefix.",
+    "defaultMessage": "Modified {date} by {name}"
+  },
+  {
+    "id": "be.modifiedDate",
+    "description": "Text for modified date with modified prefix.",
+    "defaultMessage": "Modified {date}"
+  },
+  {
+    "id": "be.itemCreated",
+    "description": "Label for item created date.",
+    "defaultMessage": "Created"
+  },
+  {
+    "id": "be.itemOwner",
+    "description": "Label for item owner.",
+    "defaultMessage": "Owner"
+  },
+  {
+    "id": "be.itemUploader",
+    "description": "label for item uploader.",
+    "defaultMessage": "Uploader"
+  },
+  {
+    "id": "be.itemInteracted",
+    "description": "Label for item last accessed date.",
+    "defaultMessage": "Last Accessed"
+  },
+  {
+    "id": "be.interactedDate",
+    "description": "Text for last accessed date with last access prefix.",
+    "defaultMessage": "Last accessed on {date}"
+  },
+  {
+    "id": "be.itemName",
+    "description": "Label for item name attribute.",
+    "defaultMessage": "Name"
+  },
+  {
+    "id": "be.itemSize",
+    "description": "Label for item size attribute.",
+    "defaultMessage": "Size"
+  },
+  {
+    "id": "be.deleteDialogLabel",
+    "description": "Label for delete confirmation dialog",
+    "defaultMessage": "Confirm Delete"
+  },
+  {
+    "id": "be.deleteDialogFileText",
+    "description": "Text for delete confirmation dialog for files",
+    "defaultMessage": "Are you sure you want to delete {name}?"
+  },
+  {
+    "id": "be.deleteDialogFolderText",
+    "description": "Text for delete confirmation dialog for folders",
+    "defaultMessage": "Are you sure you want to delete {name} and all its contents?"
+  },
+  {
+    "id": "be.renameDialogLabel",
+    "description": "Label for rename dialog",
+    "defaultMessage": "Rename"
+  },
+  {
+    "id": "be.renameDialogText",
+    "description": "Text for rename dialog",
+    "defaultMessage": "Please enter a new name for {name}:"
+  },
+  {
+    "id": "be.renameDialogErrorInvalid",
+    "description": "Error text for rename dialog when name is invalid",
+    "defaultMessage": "This name is invalid."
+  },
+  {
+    "id": "be.renameDialogErrorInUse",
+    "description": "Error text for rename dialog when name is already in use",
+    "defaultMessage": "An item with the same name already exists."
+  },
+  {
+    "id": "be.renameDialogErrorTooLong",
+    "description": "Error text for rename dialog when name is too long",
+    "defaultMessage": "This name is too long."
+  },
+  {
+    "id": "be.createDialogLabel",
+    "description": "Label for create folder dialog",
+    "defaultMessage": "New Folder"
+  },
+  {
+    "id": "be.createDialogText",
+    "description": "Text for create folder dialog",
+    "defaultMessage": "Please enter a name."
+  },
+  {
+    "id": "be.createDialogErrorInvalid",
+    "description": "Error text for create folder dialog when name is invalid",
+    "defaultMessage": "This is an invalid folder name."
+  },
+  {
+    "id": "be.createDialogErrorTooLong",
+    "description": "Error text for create folder dialog when name is too long",
+    "defaultMessage": "This folder name is too long."
+  },
+  {
+    "id": "be.createDialogErrorInUse",
+    "description": "Error text for create folder dialog when name is already in use",
+    "defaultMessage": "An folder with the same name already exists."
+  },
+  {
+    "id": "be.shareDialogLabel",
+    "description": "Label for shared link dialog",
+    "defaultMessage": "Share"
+  },
+  {
+    "id": "be.shareDialogText",
+    "description": "Text for share link dialog",
+    "defaultMessage": "Shared Link:"
+  },
+  {
+    "id": "be.shareDialogNone",
+    "description": "Text for no shared link",
+    "defaultMessage": "None"
+  },
+  {
+    "id": "be.shareAccessOpen",
+    "description": "Dropdown select option for open share access.",
+    "defaultMessage": "Access: People with the link"
+  },
+  {
+    "id": "be.shareAccessCollab",
+    "description": "Dropdown select option for collaborator share access.",
+    "defaultMessage": "Access: People in this folder"
+  },
+  {
+    "id": "be.shareAccessCompany",
+    "description": "Dropdown select option for enterprise share access.",
+    "defaultMessage": "People in this company"
+  },
+  {
+    "id": "be.shareAccessNone",
+    "description": "Dropdown select option for no access.",
+    "defaultMessage": "No shared link"
+  },
+  {
+    "id": "be.shareAccessRemove",
+    "description": "Dropdown select option to remove access.",
+    "defaultMessage": "Remove shared link"
+  },
+  {
+    "id": "be.searchPlaceholder",
+    "description": "Shown as a placeholder in the search box.",
+    "defaultMessage": "Search files and folders"
+  },
+  {
+    "id": "be.sidebarAccessStats",
+    "description": "Title for the sidebar access stats.",
+    "defaultMessage": "Access Stats"
+  },
+  {
+    "id": "be.sidebarShow",
+    "description": "Label for the show sidebar button.",
+    "defaultMessage": "Show Sidebar"
+  },
+  {
+    "id": "be.sidebarHide",
+    "description": "Label for the hide sidebar button.",
+    "defaultMessage": "Hide Sidebar"
+  },
+  {
+    "id": "be.description",
+    "description": "Label for the description field in the preview sidebar.",
+    "defaultMessage": "Description"
+  },
+  {
+    "id": "be.descriptionPlaceholder",
+    "description": "Placeholder for file description in preview sidebar.",
+    "defaultMessage": "Enter a description"
+  },
+  {
+    "id": "be.sidebarDetailsTitle",
+    "description": "Title for the preview details sidebar.",
+    "defaultMessage": "Details"
+  },
+  {
+    "id": "be.sidebarSkillsTitle",
+    "description": "Title for the preview details skills.",
+    "defaultMessage": "Skills"
+  },
+  {
+    "id": "be.sidebarActivityTitle",
+    "description": "Title for the preview activity feed.",
+    "defaultMessage": "Activity"
+  },
+  {
+    "id": "be.sidebarMetadataTitle",
+    "description": "Title for the preview metadata.",
+    "defaultMessage": "Metadata"
+  },
+  {
+    "id": "be.sidebarProperties",
+    "description": "Label for file properties section in the preview sidebar",
+    "defaultMessage": "File Properties"
+  },
+  {
+    "id": "be.defaultSkill",
+    "description": "Label for default skill section in the preview sidebar",
+    "defaultMessage": "Skill Card"
+  },
+  {
+    "id": "be.statusSkill",
+    "description": "Label for status skill card in the preview sidebar",
+    "defaultMessage": "Status"
+  },
+  {
+    "id": "be.errorSkill",
+    "description": "Label for error skill card in the preview sidebar",
+    "defaultMessage": "Error"
+  },
+  {
+    "id": "be.keywordSkill",
+    "description": "Label for keywords skill section in the preview sidebar",
+    "defaultMessage": "Keywords"
+  },
+  {
+    "id": "be.faceSkill",
+    "description": "Label for face skill section in the preview sidebar",
+    "defaultMessage": "Faces"
+  },
+  {
+    "id": "be.timelineSkill",
+    "description": "Label for face skill section in the preview sidebar",
+    "defaultMessage": "Faces"
+  },
+  {
+    "id": "be.transcriptSkill",
+    "description": "Label for transcript skill section in the preview sidebar",
+    "defaultMessage": "Transcript"
+  },
+  {
+    "id": "be.skillPendingStatus",
+    "description": "Default message when skills are still running",
+    "defaultMessage": "The skill hasn’t finished running. Please try reloading the page later."
+  },
+  {
+    "id": "be.skillUnknownError",
+    "description": "Default error message when skills fail to run",
+    "defaultMessage": "Something went wrong with running this skill or fetching its data."
+  },
+  {
+    "id": "be.skillInvalidFileSizeError",
+    "description": "Error message when skill fails due to file size",
+    "defaultMessage": "We’re sorry, no skills information was found. This file size is currently not supported."
+  },
+  {
+    "id": "be.skillInvalidFileExtensionError",
+    "description": "Error message when skill fails due to file extension",
+    "defaultMessage": "We’re sorry, no skills information was found. This file extension is currently not supported."
+  },
+  {
+    "id": "be.skillNoInfoFoundError",
+    "description": "Error message when a skill has no data",
+    "defaultMessage": "We’re sorry, no skills information was found."
+  },
+  {
+    "id": "be.uploadErrorTooManyFiles",
+    "description": "Message shown when too many files are uploaded at once",
+    "defaultMessage": "You can only upload up to {fileLimit} file(s) at a time."
+  },
+  {
+    "id": "be.uploadError",
+    "description": "Message shown when there is a network error when uploading",
+    "defaultMessage": "A network error has occured while trying to upload."
+  },
+  {
+    "id": "be.uploadEmpty",
+    "description": "Message shown when there are no items to upload",
+    "defaultMessage": "Drag and drop files or"
+  },
+  {
+    "id": "be.uploadEmptyInput",
+    "description": "Message shown for upload link when there are no items to upload",
+    "defaultMessage": "browse your device"
+  },
+  {
+    "id": "be.uploadNoDragDrop",
+    "description": "Message shown on a device with no drag and drop support when there are no items to upload",
+    "defaultMessage": "Select files from your device"
+  },
+  {
+    "id": "be.uploadInProgress",
+    "description": "Message shown when user drag and drops files onto uploads in progress",
+    "defaultMessage": "Drag and drop to add additional files"
+  },
+  {
+    "id": "be.uploadSuccess",
+    "description": "Message shown when all files have been successfully uploaded",
+    "defaultMessage": "Success! Your files have been uploaded"
+  },
+  {
+    "id": "be.uploadSuccessInput",
+    "description": "Message shown for upload link after a successful upload",
+    "defaultMessage": "Upload additional files"
+  },
+  {
+    "id": "be.nameASC",
+    "description": "Name ascending option shown in the share access drop down select.",
+    "defaultMessage": "Name: A → Z"
+  },
+  {
+    "id": "be.nameDESC",
+    "description": "Name descending option shown in the share access drop down select.",
+    "defaultMessage": "Name: Z → A"
+  },
+  {
+    "id": "be.dateASC",
+    "description": "Date ascending option shown in the share access drop down select.",
+    "defaultMessage": "Date: Oldest → Newest"
+  },
+  {
+    "id": "be.dateDESC",
+    "description": "Date descending option shown in the share access drop down select.",
+    "defaultMessage": "Date: Newest → Oldest"
+  },
+  {
+    "id": "be.sizeASC",
+    "description": "Size ascending option shown in the share access drop down select.",
+    "defaultMessage": "Size: Smallest → Largest"
+  },
+  {
+    "id": "be.sizeDESC",
+    "description": "Size descending option shown in the share access drop down select.",
+    "defaultMessage": "Size: Largest → Smallest"
+  },
+  {
+    "id": "be.searchState",
+    "description": "Message shown when there are no search results.",
+    "defaultMessage": "Sorry, we couldn’t find what you’re looking for."
+  },
+  {
+    "id": "be.selectedState",
+    "description": "Message shown when there are no selected items.",
+    "defaultMessage": "You haven’t selected any items yet."
+  },
+  {
+    "id": "be.errorState",
+    "description": "Message shown when there is an error.",
+    "defaultMessage": "A network error has occurred while trying to load."
+  },
+  {
+    "id": "be.folderState",
+    "description": "Message shown when there are no folder items.",
+    "defaultMessage": "There are no items in this folder."
+  },
+  {
+    "id": "be.recentsState",
+    "description": "Message shown when there are no recent items.",
+    "defaultMessage": "There are no recent items yet."
+  },
+  {
+    "id": "be.loadingState",
+    "description": "Message shown when folder items are still fetching.",
+    "defaultMessage": "Please wait while the items load..."
+  },
+  {
+    "id": "be.rootBreadcrumb",
+    "description": "Default label for root folder.",
+    "defaultMessage": "All Files"
+  },
+  {
+    "id": "be.searchBreadcrumb",
+    "description": "Shown as the title in the sub header while searching.",
+    "defaultMessage": "Search Results"
+  },
+  {
+    "id": "be.recentsBreadcrumb",
+    "description": "Shown as the title in the sub header when showing recents.",
+    "defaultMessage": "Recents"
+  },
+  {
+    "id": "be.selectedBreadcrumb",
+    "description": "Shown as the title in the sub header while showing selected items.",
+    "defaultMessage": "Selected Items"
+  },
+  {
+    "id": "be.errorBreadcrumb",
+    "description": "Shown as the title in the sub header while showing an error.",
+    "defaultMessage": "Error"
+  },
+  {
+    "id": "be.uploadsManagerUploadInProgress",
+    "description": "Text shown when uploads are in progress",
+    "defaultMessage": "Uploading"
+  },
+  {
+    "id": "be.uploadsManagerUploadComplete",
+    "description": "Text shown when uploads are completed",
+    "defaultMessage": "Completed"
+  },
+  {
+    "id": "be.uploadsManagerUploadFailed",
+    "description": "Text shown when uploads failed",
+    "defaultMessage": "Some Uploads Failed"
+  },
+  {
+    "id": "be.uploadsCancelButtonTooltip",
+    "description": "Cancel upload button tooltip",
+    "defaultMessage": "Cancel this upload"
+  },
+  {
+    "id": "be.uploadsRetryButtonTooltip",
+    "description": "Retry upload button tooltip",
+    "defaultMessage": "Retry upload"
+  },
+  {
+    "id": "be.uploadsFileSizeLimitExceededErrorMessage",
+    "description": "Error message shown when file size exceeds the limit",
+    "defaultMessage": "File size exceeds the folder owner's file size limit"
+  },
+  {
+    "id": "be.uploadsStorageLimitErrorMessage",
+    "description": "Error message shown when account storage limit has been reached",
+    "defaultMessage": "Account storage limit reached"
+  },
+  {
+    "id": "be.uploadsPendingFolderSizeLimitErrorMessage",
+    "description": "Error message shown when pending app folder size exceeds the limit",
+    "defaultMessage": "Pending app folder size limit exceeded"
+  },
+  {
+    "id": "be.uploadsDefaultErrorMessage",
+    "description": "Default error message shown when upload fails",
+    "defaultMessage": "Something went wrong with the upload. Please try again."
+  },
+  {
+    "id": "be.approvalAddAssignee",
+    "description": "Placeholder for approvers input",
+    "defaultMessage": "Add an assignee"
+  },
+  {
+    "id": "be.approvalAddTask",
+    "description": "Label for checkbox to add approvers to a comment",
+    "defaultMessage": "Add Task"
+  },
+  {
+    "id": "be.approvalAddTaskTooltip",
+    "description": "Tooltip text for checkbox to add approvers to a comment",
+    "defaultMessage": "Assigning a task to someone will send them a notification with the message in the comment box and allow them to approve or deny."
+  },
+  {
+    "id": "be.approvalAssignees",
+    "description": "Title for assignees input",
+    "defaultMessage": "Assignees"
+  },
+  {
+    "id": "be.approvalDueDate",
+    "description": "Title for approvers due date input",
+    "defaultMessage": "Due Date"
+  },
+  {
+    "id": "be.approvalSelectDate",
+    "description": "Placeholder for due date input",
+    "defaultMessage": "Select a date"
+  },
+  {
+    "id": "be.atMentionTip",
+    "description": "Mentioning call to action displayed below the comment input",
+    "defaultMessage": "@mention users to notify them."
+  },
+  {
+    "id": "be.commentCancel",
+    "description": "Text for cancel button",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "be.commentDeleteCancel",
+    "description": "Button text to cancel comment deletion",
+    "defaultMessage": "No"
+  },
+  {
+    "id": "be.taskDeletePrompt",
+    "description": "Confirmation prompt text to delete task",
+    "defaultMessage": "Delete task?"
+  },
+  {
+    "id": "be.commentDeleteConfirm",
+    "description": "Button text to confirm comment deletion",
+    "defaultMessage": "Yes"
+  },
+  {
+    "id": "be.commentDeletePrompt",
+    "description": "Confirmation prompt text to delete comment",
+    "defaultMessage": "Delete comment?"
+  },
+  {
+    "id": "be.commentPost",
+    "description": "Text for post button",
+    "defaultMessage": "Post"
+  },
+  {
+    "id": "be.commentShowOriginal",
+    "description": "Show original button for showing original comment",
+    "defaultMessage": "Show Original"
+  },
+  {
+    "id": "be.commentTranslate",
+    "description": "Translate button for translating comment",
+    "defaultMessage": "Translate"
+  },
+  {
+    "id": "be.commentWrite",
+    "description": "Placeholder for comment input",
+    "defaultMessage": "Write a comment"
+  },
+  {
+    "id": "be.commentPostedFullDateTime",
+    "description": "Comment posted full date time for title",
+    "defaultMessage": "{time, date, full} at {time, time, short}"
+  },
+  {
+    "id": "be.completedAssignment",
+    "description": "Title for checkmark icon indicating someone completed a task",
+    "defaultMessage": "Completed"
+  },
+  {
+    "id": "be.deleteLabel",
+    "description": "Aria label for button to delete a comment or task",
+    "defaultMessage": "Delete"
+  },
+  {
+    "id": "be.editLabel",
+    "description": "Aria label for button to edit a comment or task",
+    "defaultMessage": "Edit"
+  },
+  {
+    "id": "be.getVersionInfo",
+    "description": "Aria label for button to get information about a file's versions",
+    "defaultMessage": "Get version information"
+  },
+  {
+    "id": "be.keywordsAppliedList",
+    "description": "Message displayed in the activity feed for when image keyword search applies keywords",
+    "defaultMessage": "Keywords were applied"
+  },
+  {
+    "id": "be.keywordsList",
+    "description": "Label for a list of keywords. {words} are the list of keywords.",
+    "defaultMessage": "Keywords: {words}"
+  },
+  {
+    "id": "be.noActivity",
+    "description": "Message displayed in an empty activity feed",
+    "defaultMessage": "No Activity Yet"
+  },
+  {
+    "id": "be.noActivityCommentPrompt",
+    "description": "Message shown in",
+    "defaultMessage": "Comment and @mention people to notify them."
+  },
+  {
+    "id": "be.rejectedAssignment",
+    "description": "Title for x icon indicating someone rejected a task",
+    "defaultMessage": "Rejected"
+  },
+  {
+    "id": "be.taskApprove",
+    "description": "Approve option for a task",
+    "defaultMessage": "Complete"
+  },
+  {
+    "id": "be.taskDueDate",
+    "description": "Due date for a task",
+    "defaultMessage": "Due"
+  },
+  {
+    "id": "be.tasksForApproval",
+    "description": "Tasks for approval",
+    "defaultMessage": "Tasks"
+  },
+  {
+    "id": "be.taskReject",
+    "description": "Reject option for a task",
+    "defaultMessage": "Decline"
+  },
+  {
+    "id": "be.versionDeleted",
+    "description": "Message displayed in the activity feed for a deleted version. {name} is the user who performed the action. { version_number } is the file version string.",
+    "defaultMessage": "{name} deleted version {version_number}"
+  },
+  {
+    "id": "be.versionRestored",
+    "description": "Message displayed in the activity feed for a restored version. {name} is the user who performed the action. { version_number } is the file version string.",
+    "defaultMessage": "{name} restored version {version_number}"
+  },
+  {
+    "id": "be.versionMultipleUsersUploaded",
+    "description": "Message displayed in the activity feed to represent the range of versions uploaded by multiple users. { numberOfCollaborators } is a number and { versions } is a range of versions.",
+    "defaultMessage": "{numberOfCollaborators} collaborators uploaded versions {versions}"
+  },
+  {
+    "id": "be.versionTooManyVersions",
+    "description": "Message displayed in the activity feed when we have too many versions to display",
+    "defaultMessage": "Multiple versions of this file"
+  },
+  {
+    "id": "be.versionUploadCollapsed",
+    "description": "Message displayed in the activity feed to represent the range of versions uploaded by a single user. { name } is the user who uploaded. { versions } is a range of versions.",
+    "defaultMessage": "{name} uploaded versions {versions}"
+  },
+  {
+    "id": "be.versionUploaded",
+    "description": "Message displayed in the activity feed for a newly uploaded version. {name} is the user who performed the action. { version_number } is the file version string.",
+    "defaultMessage": "{name} uploaded version {version_number}"
+  },
+  {
+    "id": "be.defaultInlineErrorContentMessage",
+    "description": "Default bottom inline error message",
+    "defaultMessage": "Please try again later."
+  },
+  {
+    "id": "be.fileDescriptionInlineErrorTitleMessage",
+    "description": "Inline error title message for file description",
+    "defaultMessage": "Something went wrong when saving the description."
+  },
+  {
+    "id": "be.defaultErrorMaskSubHeaderMessage",
+    "description": "Default error mask bottom message",
+    "defaultMessage": "Please refresh the page or try again later."
+  },
+  {
+    "id": "be.versionHistoryErrorHeaderMessage",
+    "description": "Version history error message",
+    "defaultMessage": "Something went wrong when fetching the version history."
+  },
+  {
+    "id": "be.fileAccessStatsErrorHeaderMessage",
+    "description": "File access stats error message",
+    "defaultMessage": "Something went wrong when fetching the access stats."
+  },
+  {
+    "id": "be.currentUserErrorHeaderMessage",
+    "description": "Current user error message",
+    "defaultMessage": "Something went wrong when fetching the current user."
+  },
+  {
+    "id": "be.previousSegment",
+    "description": "Title for previous segment on skill timeline",
+    "defaultMessage": "Previous Segment"
+  },
+  {
+    "id": "be.nextSegment",
+    "description": "Title for next segment on skill timeline",
+    "defaultMessage": "Next Segment"
+  },
+  {
+    "id": "be.transcriptEdit",
+    "description": "Message to the user for editing the transcript in the sidebar",
+    "defaultMessage": "Click any section to edit."
+  }
+]
